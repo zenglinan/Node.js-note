@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e63f4f44-62d6-4a75-8e95-b93454aea837" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. Node.js连接MySQL数据库.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5. Node.js设置cookie.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/6. 登录验证方案.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/6. 后端登录验证方案. &amp;&amp; session存储的权衡.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/7. redis &amp;&amp; Node.js操作redis.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Node.js设置cookie.md" beforeDir="false" afterPath="$PROJECT_DIR$/5. Node.js设置cookie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. 登录验证方案.md" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,9 +23,19 @@
         <entry file="file://$PROJECT_DIR$/3. SQL语句.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="108">
-                <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="83" />
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. 服务端开发注意问题.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -34,8 +45,20 @@
         <entry file="file://$PROJECT_DIR$/5. Node.js设置cookie.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="324">
-                <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <first_editor relative-caret-position="54">
+                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6. 后端登录验证方案. &amp;&amp; session存储的权衡.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -43,11 +66,11 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/6. 登录验证方案.md">
+        <entry file="file://$PROJECT_DIR$/7. redis &amp;&amp; Node.js操作redis.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="288">
-                <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+              <first_editor relative-caret-position="390">
+                <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -74,10 +97,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/3. SQL语句.md" />
         <option value="$PROJECT_DIR$/4. Node.js连接MySQL数据库.md" />
-        <option value="$PROJECT_DIR$/5. Node.js设置cookie.md" />
         <option value="$PROJECT_DIR$/6. 登录验证方案.md" />
+        <option value="$PROJECT_DIR$/7. redis.md" />
+        <option value="$PROJECT_DIR$/5. Node.js设置cookie.md" />
+        <option value="$PROJECT_DIR$/3. SQL语句.md" />
+        <option value="$PROJECT_DIR$/6. 后端登录验证方案. &amp;&amp; session存储的权衡.md" />
+        <option value="$PROJECT_DIR$/7. redis &amp;&amp; Node.js操作redis.md" />
       </list>
     </option>
   </component>
@@ -102,11 +128,6 @@
             <path>
               <item name="Node.js-note" type="b2602c69:ProjectViewProjectNode" />
               <item name="Node.js-note" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Node.js-note" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Node.js-note" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -146,7 +167,7 @@
       <updated>1563953521341</updated>
       <workItem from="1563953523729" duration="5307000" />
       <workItem from="1564032865198" duration="2458000" />
-      <workItem from="1564038639850" duration="2445000" />
+      <workItem from="1564038639850" duration="11210000" />
     </task>
     <task id="LOCAL-00001" summary="upload sql语句.md">
       <created>1563953871027</created>
@@ -162,11 +183,25 @@
       <option name="project" value="LOCAL" />
       <updated>1564055004440</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upload">
+      <created>1564056119492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564056119492</updated>
+    </task>
+    <task id="LOCAL-00004" summary="upload">
+      <created>1564056230937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1564056230937</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10210000" />
+    <option name="totallyTimeSpent" value="18975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -199,16 +234,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="upload" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/3. SQL语句.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="108">
-            <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4. Node.js连接MySQL数据库.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -222,18 +247,46 @@
     <entry file="file://$PROJECT_DIR$/5. Node.js设置cookie.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <first_editor relative-caret-position="54">
+            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6. 登录验证方案.md">
+    <entry file="file://$PROJECT_DIR$/3. SQL语句.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
-            <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. 服务端开发注意问题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6. 后端登录验证方案. &amp;&amp; session存储的权衡.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7. redis &amp;&amp; Node.js操作redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="33" column="7" lean-forward="true" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
